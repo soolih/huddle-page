@@ -98,7 +98,7 @@ main>.container{
    .head{
     color: hsl(192, 100%, 9%)   ;
     font-family: 'Poppins', sans-serif;
-    font-size: 28px;
+    font-size: 25px;
     font-weight: 700;
     padding-right: 1px;
    }
@@ -160,6 +160,10 @@ main>.container{
     max-width: 350px;
     margin: 40px 20px 50px 0;
   }
+  .button-3:before{
+    content: url(/images/icon-email.svg);
+    margin:15px;
+  }
 .img-1{
     max-width: 350px;
     margin: 60px 120px 50px 120px;
@@ -203,7 +207,7 @@ main>.container{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color:rgb(242, 242, 242);
+    background-color:rgb(242,242, 242);
     max-width: 100%;
     max-height: auto;
     box-shadow: 1px 1px 10px 1px rgb(223, 223, 223);
@@ -304,7 +308,5 @@ color:  hsl(212, 13%, 74%);
 .close{
     margin: 0 0 0 1020px;
 } 
-
-
 
  
